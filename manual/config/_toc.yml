@@ -1,0 +1,14 @@
+# Table of contents
+format: jb-book
+root: intro
+parts:
+  - caption: Week 1
+    chapters:
+    - file: code/week01/00-welcome
+    - file: code/week01/01-exploration
+    - file: code/week01/02-most-reviewed
+    - file: code/week01/03-average-ratings
+    - file: code/week01/04-ratings-weighted
+    - file: code/week01/05-seeded-recommendations-freq
+    - file: code/week01/06-seeded-recommendations-associations
+    - file: code/week01/07-collecting-metadata

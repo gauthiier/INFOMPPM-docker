@@ -1,0 +1,33 @@
+# See https://jupyterbook.org/customize/config.html
+title: INFOMPPM manual
+author: David Gauthier & Erik Hekman
+logo: img/logo_uu.png
+
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# # Add a bibtex file so that we can create citations
+# bibtex_bibfiles:
+#   - references.bib
+
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  favicon: img/icon_uu.png
+  use_edit_page_button: false
+  use_issues_button: true
+  use_repository_button: true
+  extra_footer: |
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+    </a>
+
+sphinx:
+  config:
+    html_show_copyright: false
+
+repository:
+  url: https://github.com/gauthiier/whaaa-public-media  # Online location of your book
+  path_to_book: manual  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
