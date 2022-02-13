@@ -44,7 +44,6 @@ RUN pip3 install streamlit
 # configure manual (read only)
 # note: there is a problem here if running dev image...
 RUN rm -Rf /var/www/html
-ADD manual/book/ /var/www/html
 
 # defaults volumes
 VOLUME /root/code
