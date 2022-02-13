@@ -1,5 +1,9 @@
 # 📺 "WHAAA" - Docker Environment for Personalisation for (public) Media 📢
 
+## Install docker
+
+Please follow the instruction for intstalling docker on you operating system: [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
 ## Quickstart (build an image)
 - `git clone https://github.com/gauthiier/INFOMPPM-docker.git`
 - `cd INFOMPPM-docker`
