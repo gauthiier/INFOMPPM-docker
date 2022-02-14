@@ -12,37 +12,14 @@ def tile_item(item):
 
 def recommendations(df):
   columns = st.columns(10)
+  boundary = 10
   c = 0
+  
   for index, item in df.iterrows():
-    c = c + 1
-    if c == 1:
-      with columns[0]:
+    
+    if c >= 0 and c <= boundary:
+      with columns[c]:
         tile_item(item)
-    if c == 2:
-      with columns[1]:
-        tile_item(item)
-    if c == 3:
-      with columns[2]:
-        tile_item(item)
-    if c == 4:
-      with columns[3]:
-        tile_item(item)
-    if c == 5:
-      with columns[4]:
-        tile_item(item)
-    if c == 6:
-      with columns[5]:
-        tile_item(item)
-    if c == 7:
-      with columns[6]:
-        tile_item(item)
-    if c == 8:
-      with columns[7]:
-        tile_item(item)
-    if c == 9:
-      with columns[8]:
-        tile_item(item)
-    if c == 10:
-      with columns[9]:
-        tile_item(item)        
+        
+    if c == boundary:
       c = 0
