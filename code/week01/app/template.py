@@ -23,3 +23,5 @@ def recommendations(df):
         
     if c == boundary:
       c = 0
+    else:
+      c += 1
