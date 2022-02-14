@@ -12,7 +12,7 @@ def tile_item(item):
 
 def recommendations(df):
   columns = st.columns(10)
-  boundary = 10
+  boundary = 9
   c = 0
   
   for index, item in df.iterrows():
