@@ -35,10 +35,20 @@ RUN pip3 install pandas
 RUN pip install notebook
 
 #install jupyter book
-RUN pip install -U jupyter-book
+# RUN pip install -U jupyter-book
 
 # install streamlit
 RUN pip3 install streamlit
+
+# install sklearn
+RUN pip install -U scikit-learn
+
+# install matplotlib
+RUN pip install -U matplotlib
+
+# install beautifull soup
+RUN pip install beautifulsoup4
+
 
 
 # configure manual (read only)
