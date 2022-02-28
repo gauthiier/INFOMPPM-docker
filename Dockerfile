@@ -49,6 +49,8 @@ RUN pip install -U matplotlib
 # install beautifull soup
 RUN pip install beautifulsoup4
 
+# install spacy
+RUN pip install spacy
 
 
 # configure manual (read only)
