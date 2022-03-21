@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import template as t
-import authenticate as a
+# import authenticate as a
 import json
 from itertools import cycle
 from random import random
@@ -31,7 +31,7 @@ if 'activities' not in st.session_state:
   st.session_state['activities'] = users_activities
 
 # authenticate
-a.authenticate()
+# a.authenticate()
 
 # get seasons
 seasons = pd.unique(df['season'].sort_values(ascending=True))
