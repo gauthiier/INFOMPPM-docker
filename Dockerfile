@@ -52,6 +52,9 @@ RUN pip install beautifulsoup4
 # install spacy
 RUN pip install spacy
 
+# install streamlit-authenticator
+RUN pip install streamlit-authenticator
+
 
 # configure manual (read only)
 # note: there is a problem here if running dev image...
